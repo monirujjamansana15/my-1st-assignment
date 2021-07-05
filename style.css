@@ -4,12 +4,15 @@ body
     margin: 0;
 }
 .header-sec
-{
+{ 
+    width: 100%;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-sec-wrapper{
     display: flex;
     margin-left: 2%;
-    width: 100%;
-    
-    
 }
 .header-content h1 span{
     color: rgb(250, 179, 48);
@@ -29,7 +32,7 @@ body
     width: 50%;
 }
 .header-content img{
-    width: 85%; 
+    width: 90%; 
 }
 #header-style{
     margin: 50px 20px ;
@@ -45,4 +48,33 @@ button{
     border: none;
     border-radius: 50px;
     
+}
+.middle-sec{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    padding-top: 120px;
+}
+.middle-content{
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 50%;
+    text-align: left;
+}
+.middle-content img{
+    width: 85%;
+    
+}
+.middle-content h2{
+    font-size: 32px;
+    color: rgb(75, 71, 71);
+}
+.middle-content p{
+    line-height: 25px;
+    color: rgb(80, 76, 76);
+}
+#btn-style{
+    margin-top: 70px;
 }
