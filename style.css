@@ -2,6 +2,7 @@ body
 {
     font-family: 'Rubik', sans-serif;
     margin: 0;
+    
 }
 .header-sec
 { 
@@ -9,6 +10,7 @@ body
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 #header-sec-wrapper{
     display: flex;
@@ -42,6 +44,9 @@ a{
     color: white;
     font-size: 18px;
 }
+p{
+    font-size: 20px;
+}
 button{
     background-image: linear-gradient(rgb(250, 128, 107), rgb(250, 66, 33));
     padding: 18px 40px;
@@ -54,7 +59,7 @@ button{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    
+    padding-bottom: 40px;
     padding-top: 120px;
 }
 .middle-content{
@@ -77,4 +82,70 @@ button{
 }
 #btn-style{
     margin-top: 70px;
+}
+.lower-3rd-sec{
+    margin-top: 60px;
+    width: 100%;
+}
+.lower-3rd-sec h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(75, 71, 71);
+}
+.lower-3rd-sec p{
+    text-align: center;
+    color: rgb(80, 76, 76);
+    
+}
+.recipies-sec{
+    display: flex;
+    padding-top: 60px;
+   
+}
+.recipies-content p{
+    text-align: left;
+    margin-right: 25px;
+
+}
+.recipies-content h3{
+    font-size: 25px;
+    text-align: left;
+}
+.recipies-content{
+    width: 27%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+    padding-left: 30px;
+    
+}
+.recipies-content img{
+    width: 90%;
+}
+.follower-sec{
+     width: 27%;
+     padding-left: 80px;
+     padding-top: 55px;
+     line-height: 10px;
+}
+.follower-sec p{
+    font-size: 16px;
+}
+.follower-sec h1{
+    font-size: 40px;
+    
+}
+.lower-4th-sec{
+    
+    
+    display: flex;
+    margin-left: 135px;
+    box-shadow: 10px 10px 40px gray;
+    margin-top: 140px;
+    border-radius: 15px;
+    width: 80%;
+    height: 220px;
+    margin-bottom: 120px;
 }
