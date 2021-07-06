@@ -12,11 +12,13 @@ body
     background-size: cover;
     
 }
-#header-sec-wrapper{
+#header-sec-wrapper
+{
     display: flex;
     margin-left: 2%;
 }
-.header-content h1 span{
+.header-content h1 span
+{
     color: rgb(250, 179, 48);
 }
 .header-content h1
@@ -26,35 +28,43 @@ body
     color: rgb(88, 84, 84);
     font-weight: 700;
 }
-.header-content p{
+.header-content p
+{
     color: gray;
     line-height: 25px;
 }
-.header-content{
+.header-content
+{
     width: 50%;
 }
-.header-content img{
+.header-content img
+{
     width: 90%; 
 }
-#header-style{
+#header-style
+{
     margin: 50px 20px ;
 }
-a{
+a
+{
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
-p{
+p
+{
     font-size: 20px;
 }
-button{
+button
+{
     background-image: linear-gradient(rgb(250, 128, 107), rgb(250, 66, 33));
     padding: 18px 40px;
     border: none;
     border-radius: 50px;
     
 }
-.middle-sec{
+.middle-sec
+{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,56 +72,102 @@ button{
     padding-bottom: 40px;
     padding-top: 120px;
 }
-.middle-content{
+.middle-content
+{
     margin-left: 4%;
     margin-right: 4%;
     width: 50%;
     text-align: left;
 }
-.middle-content img{
+.middle-content img
+{
     width: 85%;
     
 }
-.middle-content h2{
+.middle-content h2
+{
     font-size: 32px;
     color: rgb(75, 71, 71);
 }
-.middle-content p{
+.middle-content p
+{
     line-height: 25px;
     color: rgb(80, 76, 76);
 }
-#btn-style{
+#btn-style
+{
     margin-top: 70px;
 }
-.lower-3rd-sec{
+.lower-3rd-sec
+{
     margin-top: 60px;
     width: 100%;
 }
-.lower-3rd-sec h2 {
+.happy-clients
+{
+    margin-top: 80px;
+    width: 100%;
+}
+.happy-clients img
+{
+    border-radius: 14px;
+}
+.lower-3rd-sec h2 
+{
     text-align: center;
     font-size: 32px;
     color: rgb(75, 71, 71);
 }
-.lower-3rd-sec p{
+.happy-clients h2
+{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(75, 71, 71);
+}
+.lower-3rd-sec p
+{
     text-align: center;
     color: rgb(80, 76, 76);
     
 }
-.recipies-sec{
+.happy-clients p
+{
+    text-align: center;
+    color: rgb(80, 76, 76);
+}
+.recipies-sec
+{
     display: flex;
     padding-top: 60px;
    
 }
-.recipies-content p{
+.success-sec
+{
+    display: flex;
+    padding-top: 60px;
+}
+.recipies-content p
+{
     text-align: left;
     margin-right: 25px;
-
 }
-.recipies-content h3{
+.success-content p
+{
+    text-align: left;
+    margin-right: 25px;
+}
+.recipies-content h3
+{
     font-size: 25px;
     text-align: left;
 }
-.recipies-content{
+.success-content h3
+{
+    font-size: 25px;
+    text-align: left;
+}
+.recipies-content
+{
     width: 27%;
     margin-left: 3%;
     margin-right: 3%;
@@ -121,23 +177,47 @@ button{
     padding-left: 30px;
     
 }
-.recipies-content img{
+hr 
+{ 
+    margin-top: 120px;
+    width: 80%;
+  } 
+.success-content
+{
+    width: 27%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 30px;
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 25px;
+    padding-left: 30px;
+}
+.recipies-content img
+{
     width: 90%;
 }
-.follower-sec{
-     width: 27%;
-     padding-left: 80px;
-     padding-top: 55px;
-     line-height: 10px;
+.success-content img
+{
+    width: 90%;
 }
-.follower-sec p{
+.follower-sec
+{
+ width: 27%;
+ padding-left: 80px;
+ padding-top: 55px;
+ line-height: 10px;
+ }
+.follower-sec p
+{
     font-size: 16px;
 }
-.follower-sec h1{
+.follower-sec h1
+{
     font-size: 40px;
     
 }
-.lower-4th-sec{
+.lower-4th-sec
+{
     
     
     display: flex;
@@ -149,53 +229,72 @@ button{
     height: 220px;
     margin-bottom: 120px;
 }
-.lower-sec{
+.lower-sec
+{
     display: flex;
     width: 100%;
     background-color: rgb(152, 7, 255);
     padding-bottom: 110px;
 }
-.about-sec img{
+.about-sec img
+{
     width: 85%;
     border-radius: 15px;
     margin-right: 40px;
     margin-top: 25px;
     
 }
-.about-sec h1 span{
+.about-sec h1 span
+{
     color: orange;
 }
-.about-sec h1{
+.about-sec h1
+{
     font-size: 35px;
     font-weight: 700;
 }
-.about-sec{
+.about-sec
+{
     width: 30%;
     margin-left: 40px;
     padding-top: 40px;
     color: whitesmoke;
 }
-.about-sec i{
+.about-sec i
+{
     line-height: 35px;
     padding-right: 15px;
     color: rgb(255, 185, 55);
     
 }
-.footer-style{
+.footer-style
+{
     text-align: center;
     color: gray;
     padding-top: 10px;
     font-size: 25px;
 }
-.footer-style p{
+.footer-style p
+{
     color: wheat;
 }
-.footer-section{
+.footer-section
+{
     width: 100%;
     height: 180px;
     background-color: rgb(24, 18, 29);
     padding-bottom: 40px;
 }
-.footer-style span{
+.footer-style span
+{
     color: orange;
+}
+footer p
+{
+    text-align: center;
+    font-size: 14px;
+}
+footer span
+{
+    color: rgb(207, 135, 0);
 }
